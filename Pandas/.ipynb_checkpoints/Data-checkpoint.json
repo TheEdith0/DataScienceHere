@@ -1,0 +1,12 @@
+[
+    {
+        "user": "Ashwani",
+        "pages": 23,
+        "address":{"City":"Charkhi Dadri","Village":"Mauri"}
+    },
+    {
+        "user":"Shikha",
+        "pages": 24,
+        "address":{"City":"Charkhi Dadri","Village":"Bageshwari"}
+    }
+]
