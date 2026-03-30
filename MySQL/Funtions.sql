@@ -1,0 +1,45 @@
+-- << Functions: builtin tools helps to work with data. Like: avg , sum of data.
+-- USE Student_db;
+-- Create table Father(
+-- S_id int primary key,
+-- f_fname varchar(20) Not null,
+-- l_fname varchar(20) default(" ")
+-- );
+
+-- insert into Father values(1,"Anil","Kumar"),(2,"Risabh","Mital"),(3,"Krishna","Murti"),(4,"Rohit",NULL);
+-- Select *from Father;
+
+-- Alter table Father ADD column age int not null;
+-- Alter table Father ADD column DOP DATETIME Default(now());
+-- update Father set age =30 where S_id=1 or 3;
+-- update Father set age =31 where S_id=2;
+-- update Father set age =34 where S_id=4;
+-- Select *from Father; 
+
+-- Select Count(*) as No_of_Records from Father;
+-- Select  max(age) as max_age from Father;
+-- Select  min(age) as min_age from Father;
+-- Select  avg(age) as avg_age from Father;
+-- Select  sum(age) as sum_of_age from Father;
+-- select timediff(now(),DOP) as TimeDOPtillnow from Father;
+-- select curdate()as date;
+-- select curtime()as time;
+-- select round(34.6669,1) as roundoff;
+-- select f_fname,datediff(now(),DOP) as TimeDOPtillnow from Father;
+-- select concat(f_fname," ",l_fname) as Full_name from Father;
+-- select f_fname,length(f_fname) as bit_length from Father;
+-- select f_fname,char_length(f_fname) as char_length from Father;
+-- select replace(f_fname,"l","sh") as new_name from Father;
+-- select lower(f_fname) as lowercase from Father;
+-- select upper(f_fname) as uppercase from Father;
+-- select trim(" hello ");
+-- select year(now());
+-- select month(now());
+-- select day(now());
+-- select ifnull(l_fname,"Unkown") as Lastname from Father;
+-- select coalesce(null," ","names");
+-- select rand();
+-- select mod(age,3) as Mod_of_age from Father;
+-- select abs(-10);
+-- select ceil(5.3);
+-- select floor(5.9);
